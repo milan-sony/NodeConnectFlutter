@@ -1,0 +1,25 @@
+{
+  "name": "nodeconnectflutterapi",
+  "version": "1.0.0",
+  "description": "Flutter with node API test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://"
+  },
+  "keywords": [
+    "flutter",
+    "API",
+    "Node",
+    "MySQL"
+  ],
+  "author": "Milan Sony",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
