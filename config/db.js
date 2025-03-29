@@ -17,7 +17,7 @@ mysqlDB.connect((error) => {
         console.error('Error connecting to MySQL: ', error);
         return;
     }
-    console.log('🚀 Connected to MySQL database');
+    console.log(`\n✔️  Connected to MySQL database`);
 });
 
 export default mysqlDB
