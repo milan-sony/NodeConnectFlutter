@@ -23,9 +23,8 @@ app.use("/", routes)
 // connection port
 const PORT = process.env.PORT || 5000
 
+// gets local IP
 const localIP = ip.address();
-console.log('Local IP:', localIP);
-
 
 // listen on all network interfaces (0.0.0.0)
 app.listen((process.env.PORT || 5000), '0.0.0.0', () => {
